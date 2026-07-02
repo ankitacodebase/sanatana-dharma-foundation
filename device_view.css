@@ -1,0 +1,792 @@
+@media(max-width:1500px){
+    .video_popup{
+        top: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .slider{
+        width: 100%;
+        height: 65vh;
+      }
+    .slider .slide img{
+        width: 100%;
+        height:65vh;
+      }
+      .play_icon .fa-play{
+        width: 4rem;
+        height: 4rem;
+        line-height: 4rem;
+        font-size: 2rem;
+      }
+    #img3{
+        position: relative;
+        top: -3rem;
+    }
+    form .field label{
+        display: flex;
+        width: 10rem;
+        font-size: 1.2rem;
+    }
+    .copyright .copyright_box{
+        display: flex;
+        justify-content: center;
+        margin:0 9%;
+    }
+    .copyright .copyright_box ul{
+        margin-left: 5%;
+    }
+}
+@media(max-width:1360px){
+    .salient_feature{
+        justify-content: center;
+    }
+    #img3{
+        position: relative;
+        top: 0rem;
+        width: 330px;
+    }
+    .health_section{
+        right: 0px;
+    }
+    .health_section img{
+        margin:0 10px ;
+    }
+    .inner_news_box p{
+        font-size: 1rem;
+        padding:.2rem 0;
+        width: 100%;
+    }
+}
+@media(max-width:1200px)
+{
+    .secound_bar .secound_inner_bar{
+        margin:0 2%;
+        padding: .2rem;
+    }
+    .secound_bar ul{
+        display: block;
+    }
+    .secound_bar ul li{
+            display: inline-block;
+    }
+    .video_popup{
+        top: 60%;
+        transform: translate(-50%,-60%);
+    }
+    .mission_box .inner_mission p{
+        margin:0 10%;
+    }
+    .foundation_section .inner_foundation{
+        margin:0% 10%;
+    }
+    .foundation_section .foundation_containt p{
+        font-size: 1rem;width: 100%;
+        line-height: 1.7rem;
+    }
+    .foundation_section .chairmen_img img{
+        width: 120px;
+    }
+    .foundation_section .chairmen_img p{
+        font-size: .9rem;
+    }
+    .secound_containt{
+        margin:0 10%;
+    }
+    .holy_city_outer_section .holy_city_section{
+        margin: 0rem 10%;
+    }
+    .objective_outer_section .inner_objective{
+        margin:0 10%;
+    }
+    .inner-cont{
+        margin:0 10%;
+    }
+    .salient_feature .transport .tpt_area{
+        display: flex;
+        margin:0 .5rem;
+    }
+    .salient_feature .transport .tpt_area p{
+        width: 9rem;
+    }
+    #img3{
+        width: 250px;
+    }
+    #testing{
+        margin:0 0 0 1rem;
+    }
+    .uni-aca-box img{
+        max-width: 80%;
+    }
+    .health_section img{
+        max-width: 80%;
+    }
+    .CentralSanctorum{
+        text-align: center;
+        margin:0% 10%;
+        padding-top: 2rem;
+    }
+    .gallery_section .gallery_inner{
+        margin:0 10%;
+        flex-wrap: wrap;
+    }
+    .inner_news_box{
+        padding: .5rem;
+    }
+    .inner_news_box p{
+        padding:.4rem 0;
+        font-size: .8rem;
+    }
+    .invitation_section .invitaion_contact{
+        margin:0 5%;
+    }
+    .logo_section{
+        width: 20rem;
+    }
+    .logo_section img{
+        width: 18rem;
+    }
+    .main_footer .quick_link ul{
+        margin-left: .5rem;
+        width: 30%;
+    }
+    .copyright .copyright_box{
+        margin:0 10%;
+    }
+    .footer_social_media{
+        padding-bottom: .5rem;
+    }
+}
+@media(max-width:950px)
+{
+    .secound_bar{
+        padding:.5rem;
+    }
+    .secound_bar #menu{
+        width:100%;
+        background-color: #531101f4;
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    }
+    .secound_bar .secound_inner_bar{
+        margin:0 1.5%;
+    }
+    .secound_bar #menu li{
+        display: block;
+        text-align: left;
+        margin: 0;
+    }
+    .secound_bar ul{
+        padding-bottom:.5rem;
+    }
+    .secound_bar ul ul{
+        position: absolute;
+        left:0;
+        top: 100%;
+        width: 100%;
+        background-color: #eee;
+    }
+    .secound_bar ul ul li a{
+        color: #BB0E00;
+    }
+    .secound_bar #menu.active{
+        display: block;
+        opacity: 100%;
+        transition: 1s;
+    }
+    #lang{
+        display: none;
+    }
+    .demo{
+        display: flex;
+        justify-content:space-between;
+    }
+    #lang_btn{
+        display: block;
+        color: #fff;
+        background-color: #531101;
+    }
+    .other_lang{
+        background-color: #eee;
+        text-align: left;
+        display: none;
+        position: absolute;
+        top: 78%;
+        left: 3%;
+        margin-left: .5rem;
+    }
+    .other_lang #a{
+        color: #872f1b;
+        display: block;
+        text-decoration: none;
+        padding: .1rem;
+    }
+    .sd_menu{
+        display: block;
+    }
+    #form_hover{
+        left: 12%;
+        width: 76%;
+    }
+    .slider{
+        width: 100%;
+        height: 45vh;
+      }
+    .slider .slide img{
+        width: 100%;
+        height:45vh;
+    }
+    .play_icon .fa-play{
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+        font-size: 1.7rem;
+    }
+    .navigation{
+        width: 90%;
+    }
+    .mission_box .inner_mission p{
+        margin:0 5%;
+    }
+    .foundation_section{
+        margin:0% 5%;
+    }
+    .foundation_section .inner_foundation{
+        margin:0%;
+    }
+    .foundation_section .chairmen_img{
+        text-align: center;
+        padding-left: 1rem;
+    }
+    .secound_containt{
+        margin:0 5%;
+    }
+    .holy_city_outer_section .holy_city_section{
+        margin: 0rem 5%;
+    }
+    .holy_city_section .holycity_img img{
+        height: 400px;
+        height: 480px;
+    }
+    #butn{
+        margin-top: 1rem;
+    }
+    .objective_outer_section .inner_objective{
+        margin:0 5%;
+    }
+    .inner-cont{
+        margin:0 5%; 
+    }
+    .salient_feature .transport .tpt_area img{
+        max-width: 80%;
+    }
+    .salient_feature .transport .tpt_area{
+        margin: 0;
+    }
+    .salient_feature_info{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .CentralSanctorum{
+        text-align: center;
+        margin:0% 5%;
+        padding-top: 2rem;
+    }
+    .spoter_section .association{
+        margin:0rem 5%;
+        text-align: center;
+    }
+    .news_update_section .news_update{
+        margin:0 5%;width: 90%;
+    }
+    .inner_news_box p{
+        font-size: .8rem;
+        padding:.4rem 0;
+        width: 100%;
+    }
+    .logo_section #footerlogo{
+        width: 100%;
+        text-align: center;
+    }
+    .logo_section #footerlogo img{
+        width: 60%;
+    }
+    .logo_section .footer_contact{
+        width: 15rem;
+        display: block;
+    }
+    .main_footer{
+        flex-wrap: wrap;
+    }
+    .main_footer .quick_link ul{
+        margin-left:.5rem;
+        width: 100%;
+    }
+    .copyright .copyright_box{
+        display: block;
+        text-align: center;
+        margin:0 9%;
+    }
+    .copyright .copyright_box ul{
+        margin-left: 5%;
+        padding: .5rem;
+    }    
+}
+@media(max-width:872px){
+    form .field{
+        display: block;
+    }
+    form .field .input_field{
+        margin:0%;
+    }
+    form .field label{
+        text-align: left;
+        font-size: 1.2rem;
+    }
+    form .field .input{
+        width: 98%;
+    }
+    #country{
+        width: 100%;
+        padding: .4rem;
+    }
+    form .field #btn{
+        width: 50%;
+        padding: .5rem;
+        margin:0 25%;
+        
+    }
+}
+@media(max-width:750px)
+{
+    .slider{
+        height: 40vh;
+      }
+    .slider .slide img{
+        height:40vh;
+        
+    }
+      .play_icon .fa-play{
+        width: 2.5rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
+        font-size: 1.3rem;
+        border: 4px solid #db4242;
+      }
+    .foundation_section{
+        display: block;
+    }
+    .foundation_section .foundation_containt{
+        width: 100%;
+    }
+    .foundation_section .foundation_containt p{
+        font-size: 1rem;
+    }
+    .secound_containt .inner_secound_containt p{
+        font-size: 1rem;
+        width: 100%;
+        margin:0;
+        text-align: justify;
+    }
+    .holy_city_section .holycity_img img{
+        height: 70vh;
+    }
+    .inner_holycity .inner_cont_holycity{
+        padding-left:0rem;
+    }
+    .inner_holycity .inner_cont_holycity p{
+       text-align: justify;
+    }
+    .holy_city_outer_section .holy_city_section{
+        display: block;
+    }
+    .holy_city_section .holycity_img img{
+        width: 50%;height: auto;
+        margin:0 25%;
+        margin-bottom: 1rem;
+    }
+    .objective_outer_section .inner_objective .inner_obj_box{
+        display: flex;flex-wrap: wrap;
+    }
+    .inner_obj_box .objective_box{
+        margin:.5rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .salient_feature .transport .tpt_area{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .news_update_section .news_update{
+        flex-wrap: wrap;
+    }
+    .inner_news_box p{
+        font-size: 1rem;
+        padding:.4rem 0;
+        width: 100%;
+    }
+    form .field .input{
+        width: 97%;
+    }
+}
+@media(max-width:670px){
+    .main_div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main_footer{
+        text-align: center;
+    }
+    .main_footer .quick_link{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .main_footer .quick_link ul{
+        margin:auto;
+        margin-top: 1rem;
+    }
+}
+@media(max-width:656px){
+    .main_div .sub_div ul{
+        text-align: center;
+        display: block;
+    }
+    #cont{
+        width: 70%;
+        margin:0 15%;
+    }
+    .inner_holycity .inner_cont_holycity h2{
+        font-size: 1.1rem;
+    }
+    .button_div{
+        margin: 2rem;
+    }
+    .button_div #btn{
+        width: 150px;
+        padding: 1rem;        
+    }
+    .video_popup{
+        top: 50%;
+        transform: translate(-50%,-50%);
+        width: 90%;
+    }
+    .video_popup .banner_video{
+        margin-top: 2rem;
+        width: 100%;
+        height: 250px;
+    }
+    .slider .slide img{
+        object-fit: cover;
+    }
+    .slient_video{
+        width: 100%;
+        height: 250px;
+        border-radius: 1rem;
+    }
+}
+@media(max-width:550px)
+{
+    .foundation_section .inner_foundation{
+        display: block;
+    }
+    .foundation_section .chairmen_img{
+        padding-left: 0rem;
+        padding-top: 1rem;
+    }
+    .foundation_section .chairmen_img img{
+        width: 50%;
+        height: auto;
+    }
+    .secound_containt h1{
+        padding:.7rem 0;
+    }
+    .salient_feature .transport .tpt_area img{
+        max-width: 100%;
+    }
+    .salient_feature .transport{
+        flex-wrap: wrap;
+    }
+    .salient_feature .transport .tpt_area{
+        margin-top: 2rem;
+    }
+    .salient_feature_info{
+        flex-wrap: wrap;
+    }
+    .univercity_box{
+        flex-wrap: wrap;
+    }
+    #testing{
+        margin: 0;
+    }
+    .health_section{
+        display: block;
+    }
+    .health_section .health_box{
+        margin-top: 1rem;
+    }
+    .CentralSanctorum{
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+    .video_section p{
+        padding-bottom: 2rem;
+    }
+    .button_div{
+        margin: 2rem;
+    }
+    .button_div #btn{
+        width: 150px;
+        padding: .8rem;        
+    }
+    .inner_news_box{
+        padding: .5rem;
+    }
+    .inner_news_box p{
+        line-height: 1.5rem;
+        width: 100%;margin:0 1rem;
+    }
+    .news_update_section .news_update .news_box{
+        height: auto;
+    }
+    .news_update_section #btn{
+        width: 150px;
+        padding: .8rem;
+    }
+    .gallery_section .gallery_inner .gallery_image img{
+        width: 100%;
+        height: 16rem;
+    }
+    .gallery_section .gallery_inner .gallery_image p{
+        width: 20rem;
+        height: auto;
+    }
+    form .field .input{
+        width: 96%;
+    }
+    .logo_section img{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width:473px){
+    .main_div .sub_div #img1{
+        width: 40px;
+    }
+    .main_div .sub_div #img2{
+        width: 40px;
+    }
+    .main_div .sub_div #logo{
+        width: 240px;
+    }
+    .foundation_section{
+        padding-top:.5rem;
+    }
+    .about_header h1{
+        line-height: 1.8rem;
+    }
+}
+@media(max-width:450px){
+    .slider{
+        height: 30vh;
+      }
+    .slider .slide img{
+        object-fit:cover;
+        height: 30vh;
+    }
+}
+@media(max-width:389px){
+    .slider{
+        height: 27vh;
+      }
+    .slider .slide img{
+        object-fit:cover;
+        height: 27vh;
+    }
+    .play_icon .fa-play{
+        width: 3rem;
+        height: 3rem;
+        line-height: 3rem;
+        border: 4px solid #db4242;
+        text-align: center;
+        font-size: 1.5rem;
+      }
+    .prev-btn, .next-btn{
+        width: 1.5rem;
+        height: 1.5rem;
+        line-height: 1.5rem;
+        font-size: .9rem;
+    }
+    form .field .input{
+        width: 94%;
+    }
+    form .field #btn{
+        width: 60%;
+        margin:0 20%;  
+    }
+}
+@media(max-width:350px)
+{
+    .main_div .sub_div ul li a{
+        font-size: .9rem;
+    }
+    .main_div .hindi_logo img{
+        width: 100%;
+    }
+    .main_div .eng_logo img{
+        
+        width: 100%;
+    }
+    .foundation_section .foundation_containt{
+        width: 100%;
+    }
+    .foundation_section .foundation_containt p{
+        font-size: 1rem;
+        width: auto;
+        word-break:break-all;
+    }
+    .secound_containt{
+        margin:0 5%;
+    }
+    .secound_containt .inner_secound_containt p{
+        margin: 0;
+        width: auto;
+        word-break:break-all;
+    }
+    .holy_city_section .holycity_img img{
+        width: 100%;margin: 0;padding: 0;
+    }
+    .inner_obj_box .objective_box p{
+        font-size: 1rem;
+        text-align: center;
+        padding-left:0rem;
+        width: 100%;
+    }
+    .salient_feature_info{
+        display: block;
+    }
+    #img3{
+        width: 200px;
+    }
+    .univercity_box{
+        display: block;
+    }
+    .uni-aca-box p{
+        word-wrap: break-word;
+    }
+    .spoter_section .association #btn{
+        width: 150px;
+        padding: .5rem;
+    }
+    .inner_news_box{
+        padding: .3rem;
+    }
+    .inner_news_box p{
+        font-size: .8rem;
+        line-height: 1.3rem;
+        width: 100%;margin:0rem;
+    }
+    .news_update_section #btn{
+        width: 150px;
+        padding: .5rem;
+    }
+    .gallery_section .gallery_inner .gallery_image p{
+        width: 15rem;
+    }
+    .invitation_section .invitaion_contact .invitation_box p{
+        font-size: 1rem;
+    }
+    .invitation_section .invitaion_contact .invitation_box #btn{
+        width: 150px;
+        padding: .5rem;
+        margin: 0;
+    }
+    .contact_form h1{
+        padding-top: 1.5rem;
+    }
+    .contact_form p{
+        font-size: 1rem;
+    }
+    form .field label{
+        font-size: 1rem;
+    }
+    form .field .input{
+        width: 92%;
+    }
+    form .field #btn{
+        width: 60%;
+        padding: .5rem;
+        margin:0 20%;
+        
+    }
+    .logo_section .footer_contact #footer_email{
+        display: block;
+        word-break: break-all;
+    }
+}
+@media(max-width:300px){
+    .slider{
+        height: 22vh;
+      }
+    .slider .slide img{
+        object-fit:cover;
+        height: 22vh;
+    }
+}
+@media(max-width:260px){
+    .main_div .hindi_logo img{
+        max-width: 100%;
+    }
+    .main_div .eng_logo img{
+        max-width: 100%;
+    }
+    .main_div .sub_div ul{
+        display: none;
+    }
+    .foundation_section .foundation_containt h1{
+        font-size: 1.3rem;
+    }
+    .foundation_section .chairmen_img img{
+        width: 140px;
+    }
+    .scroll_button{
+        display: flex;
+        justify-content: flex-end;
+        position: fixed;
+        bottom: 1rem;
+        right: 0rem;
+    }
+    .about_header img{
+        display: none;
+    }
+    #img3{
+        width: 180px;
+    }
+    .spoter_section .association h1{
+        font-size:1.3rem;margin: 0;padding: 0;
+    }
+    .gallery_section .gallery_inner .gallery_image img{
+        width: 10rem;
+        height: 16rem;
+    }
+    .gallery_section .gallery_inner .gallery_image p{
+        font-size: 1rem;
+        width: 10rem;
+    }
+    .logo_section{
+        width: auto;
+    }
+    .logo_section img{
+        width: 100%;
+    }
+    .logo_section .footer_contact{
+        width: auto;
+    }
+    .logo_section .footer_contact p{
+        width: 80%;
+        margin:0 10%;
+    }
+}

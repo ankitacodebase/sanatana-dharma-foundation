@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 28px;
+}
+.samepageLink{
+    z-index: 1;
+    width: 8rem;
+    background-color: #eee;
+    position: fixed;
+    top: 40%;
+    right: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    animation: aboulink 4s;
+    display: block;
+}
+.samepageLink.active{
+    display: none;
+}
+@keyframes aboulink{
+    0%{transform: scale(0%);}
+    100%{transform: scale(100%);}
+}
+.samepageLink #cross{
+    color: #670b04;
+    position: absolute;
+    right: .3rem;
+    top: .3rem;
+}
+.samepageLink #cross:hover{
+    color: blue;    
+}
+.samepageLink a{
+    width: 8rem;
+    display: block;
+    text-decoration: none;
+    padding:.3rem 0;
+    font-size: .8rem;
+    color: #670b04;
+}
+.samepageLink a:hover{
+    color: blue;
+}
+.page_banner{
+    background-image: url(img/page-banner.html);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 29vh;
+    width: 100%;
+    background-blend-mode: darken;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
+}
+.page_banner h1{
+    height: 29vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* About Section Start */
+.about_countainer{
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+}
+.about_countainer .inner_about_container{
+    margin:0% 14%;
+    text-align: justify;
+}
+.about_countainer .inner_about_container .about_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_countainer .inner_about_container .about_header h1{
+    text-align: center;
+    color: #8d3c2a;
+    font-weight: 800;
+    padding-top: 1rem;
+}
+.about_countainer .inner_about_container .about_header img{
+    width: 50px;
+    height: 30px;
+    margin:0 .5rem;
+}
+
+.about_countainer .inner_about_container .about_containt p{
+    line-height: 1.7rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    text-align: justify;
+}
+/* About Section End */
+/* Aims and objectives Start */
+.aims_objective .inner_aims_obj_container{
+    margin:0% 14%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.aims_objective .inner_aims_obj_container p{
+    text-align: center;
+    padding:1rem 0;
+}
+.aims_objective .inner_aims_obj_container .aims-obj_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aims_objective .inner_aims_obj_container .aims-obj_header img{
+    width: 30px;
+    position: relative;
+    right: 25px;
+}
+.aims_objective .inner_aims_obj_container .aims-obj_header h1{
+    font-weight: 800;
+    text-align: center;
+    color: #8d3c2a;
+}
+.aims_objective .inner_aims_obj_container h2{
+    text-align: center;
+    color: orangered;
+    padding:1rem 0;
+}
+.aims_objective .inner_aims_obj_container .aims_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.aims_objective .inner_aims_obj_container .aims_container .aims_box{
+    width: 240px;
+    height: 240px;
+    margin:1rem;
+    border-radius: .5rem;
+    box-shadow: #fceee9 0px 0px 0px 4px, #fceee9 0px 4px 6px -1px, #fceee9 0px 1px 0px inset;
+}
+.aims_objective .inner_aims_obj_container .aims_container .aims_box p{
+    text-align: center;
+    padding: .7rem;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.objective_container{
+    background-image: url(img/back-stc.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inner_obj_box{
+    margin:0 14%;
+}
+.objective_container h1{
+    text-align: center;
+    padding-top: 1.8rem;
+    color: orangered;
+    padding-bottom: 1.5rem;
+}
+#top_p{
+    margin-left: 22px;
+    padding-bottom: 1.5rem;
+}
+.inner-objct{
+    border-left: 3px solid orangered;
+}
+.inner-objct .circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    left: -12px;
+    background-color: #fff;
+}
+.inner-objct .objct-content{
+   position: relative;
+   top: -25px;bottom: 0;
+   left: 20px;
+   text-align: left;
+}
+.inner-objct .objct-content p{
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+#line_hide{
+    border: none;
+}
+#last_circle{
+    position: relative;
+    left: -9.5px;
+}
+/* Aims and objectives End */
+/* Manegment Section start */
+.inner_manegment_box{
+    margin:0 14%;
+    padding:2rem 0;
+}
+.managment_section .manegment_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.managment_section .manegment_header h1{
+    color:#8d3c2a;
+}
+.managment_section .manegment_header img{
+    height: 25px;
+    width: 50px;
+    padding-right: 1.5rem;
+}
+#maneg_p{
+    padding: 1rem;
+    text-align: left;
+}
+/* Manegment Section start */
+/*Promotar Profile Start*/
+.promotar_profile{
+    background-image: url(img/back-stc.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.promotar_profile .inner_promotar{
+    margin:0 14%;
+    padding:2rem 0;
+}
+.promotar_profile .inner_promotar .header{
+    text-align: center;
+}
+.promotar_profile .inner_promotar .header h1{
+    color: #8d3c2a;
+}
+.promotar_profile .inner_promotar .header h4{
+    line-height: 1.7rem;
+}
+.promoter_box{
+    padding-top: 1.5rem;
+    display: flex;
+}
+.promoter_box img{
+    height: 200px;
+}
+.promoter_box h2{
+    font-weight:100;
+    text-align: center;
+}
+.pomoter_content{
+    margin-left: 2rem;
+}
+.pomoter_content p{
+    line-height: 1.7rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+}
+.pro_content p{
+    line-height: 1.7rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+}
+/*Promotar Profile End*/
+/*Books Section Start*/
+.inner_books_box{
+    margin:0 14%;
+    padding:2rem 0;
+}
+.inner_books_box .books_content{
+    text-align: center;
+}
+.inner_books_box .books_content h1{
+    color: #8d3c2a;
+}
+.books_image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.inner_books_box .books_content .books_image img{
+    padding-top: 2rem;
+    width: 30%;
+    margin: 1rem;
+}
+/*Books Section End */
+/* Trusted Deed Start */
+.trusted_deed_section{
+    background-image: url(img/holy-back.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.inner_trusted_container{
+    margin:0% 14%;
+    padding:2rem 0;
+}
+.inner_trusted_container h1{
+    text-align: center;
+    color: #8d3c2a;
+}
+.inner_trusted_container p{
+    padding:.5rem 0;
+}
+.trust_inforamation{
+    display: flex;
+    justify-content: center;
+}
+.trust_inforamation table{
+    padding: 1rem 0;
+    width: 100%;
+}
+.trust_inforamation table tr{
+    padding:.8rem 0;
+    font-size: 1.1rem;
+}
+.trust_inforamation table th{
+    text-align: right;
+    font-weight:normal;
+  }
+  .trust_inforamation table td{
+    text-align: left;
+    padding:.3rem .8rem 0;
+  }
+/* Trusted Deed End */
+/* Agreement Section start */
+.agreement_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.agreement_box .page_one{
+    width: 300px;
+    height:auto;
+    margin:1rem;background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+    padding: 1rem 1rem .6rem;
+}
+.agreement_box .page_one img{
+    max-width: 100%;
+    height: auto;
+    filter: brightness(90%);
+}
+.agreement_section p{
+    padding-top:1rem;
+}

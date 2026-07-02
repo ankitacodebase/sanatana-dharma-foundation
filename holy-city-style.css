@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.page_banner{
+    background-image: url(img/holyCity-upper.html), url(img/middilbanner.html), url(img/holyCity-banner2.html);
+    height: 29vh;
+    background-size: cover;
+    background-position:top center;
+}
+.page_banner h1{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+}
+.header-box{
+    display: flex;
+    justify-content: center;
+}
+.header-box img{
+    width: 40px;
+    height: 35px;
+}
+.header-box h1{
+    margin-left: 1rem;
+    color: #8d3c2a;
+}
+/* Why the Need Start */
+.why-need-section{
+    background-image: url(img/holy-back.webp);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.why-need-section .inner-container{
+    margin:0 13%;
+    padding:2rem 0;
+}
+.why-need-section .inner-container .header-box h1{
+    padding-bottom: 1rem;
+}
+.why-need-section .inner-container p{
+    line-height: 1.7rem;
+    font-size: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    text-align: justify;
+}
+.westrn_genius{
+    padding:1rem 0;
+}
+.westrn_genius #p{
+    color: orangered;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    font-weight: 300;
+}
+.westrn_genius .westrn_container{
+    display: flex;
+    justify-content:center;
+}
+.westrn_genius .westrn_container .westrn_box1{
+    background-color: #bcd631;
+    color: #541102;
+    padding: 1rem;
+    margin:.3rem;
+    border-radius:1rem;
+}
+.westrn_genius .westrn_container .westrn_box1 p{
+    text-align: center;
+}
+.westrn_genius .westrn_container .westrn_box2{
+    background-color: #14bba9;
+    color: #fff;
+    padding: 1rem;
+    margin:.3rem;
+    border-radius:1rem;
+}
+.westrn_genius .westrn_container .westrn_box2 p{
+    text-align: center;
+}
+.westrn_genius .westrn_container .westrn_box3{
+    background-color: #e55225;
+    color: #fff;
+    padding: 1rem;
+    margin:.3rem;
+    border-radius:1rem;
+}
+.westrn_genius .westrn_container .westrn_box3 p{
+    text-align: center;
+}
+.westrn_genius .westrn_container .westrn_box4{
+    background-color: #25bae5;
+    color: #fff;
+    padding: 1rem;
+    margin:.3rem;
+    border-radius:1rem;
+}
+.westrn_genius .westrn_container .westrn_box4 p{
+    text-align: center;
+}
+.westrn_genius .westrn_container .westrn_box5{
+    background-color: #7c8fff;
+    color: #fff;
+    padding: 1rem;
+    margin:.3rem;
+    border-radius:1rem;
+}
+.westrn_genius .westrn_container .westrn_box5 p{
+    text-align: center;
+}
+#bottom_p{
+    color: orangered;
+    text-align: center;
+    padding-bottom:0rem;
+}
+/* Why the need End */
+.what-holy-city .inner-holy-city{
+    margin:0 13%;
+    padding:2rem;
+    text-align: center;
+}
+.what-holy-city .inner-holy-city p{
+    line-height: 1.7rem;
+    font-size: 1rem;
+    padding:1.5rem 0;
+}
+.what-holy-city .inner-holy-city #btn{
+    width: 150px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+    font-weight: 100;
+    color: #db4242;
+    border: 1px solid #db4242;
+}
+.what-holy-city .inner-holy-city #btn:hover{
+    background-color: #f7d5b9;
+}
+.objective_outer_section .inner_objective{
+    margin: 0;
+}
+.objective_outer_section h1{
+    padding-top: 0;
+}
+/* Salient Feature Start*/
+.salient_feature_info{
+    display: flex;
+    justify-content: space-between;
+}
+.city_info_box{
+    display: flex;
+    justify-content:flex-end;
+    align-items: baseline;
+    position: relative;
+    bottom: 50px;
+}
+.city_info_box .city_box{
+    text-align: center;
+    margin:0 2.8rem;
+}
+#citizen{
+    margin-right: 0;
+}
+/* Salient Feature End*/
+/* Project Timline */
+.projct-timline{
+    background-image: url(img/holy-back.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner-project{
+    margin:0 13%;
+    padding:2rem 0;
+    text-align: center;
+}
+.header-box{
+    padding-bottom:2rem;
+}
+.inner-project #year,#srno{
+    width: 3%;
+    padding: .5rem;
+    color: #541102;
+}
+table,th,td{
+    border: 1px solid #333333;
+}
+.inner-project #relign{
+    width: 240px;
+    padding: .5rem;
+    color: #541102;
+}
+#relign-content{
+    width: 240px;
+    padding: .5rem;
+    text-align: left;
+    font-size: .9rem;
+    line-height: .9rem;
+    color: #541102;
+}
+#all-td{
+    width: 4%;
+    color: #541102;
+}
+#all-td span{
+    display: block;
+    width: 100%;
+    height: 1.2rem;
+    background-color: green;
+}
+#all-td #span{
+    display: block;
+    width: 100%;
+    height: 1.2rem;
+    background-color:orange;
+}
+#all-td #span2{
+    background-color: red;
+    display: block;
+    width: 100%;
+    height: 1.2rem;
+}
+.table-box{
+    display: flex;
+    justify-content: flex-end;
+}
+.table-box .inner-table-box{
+    display: flex;
+    justify-content: flex-end;
+    color: #541102;
+    width: 338px;
+    margin-top: 1rem;
+    border: 2px solid #333333;
+}
+.table-box .color-box{
+    margin:.5rem;
+}
+.table-box .color-box span{
+    background-color: green;
+    width: 50px;
+    padding:.8rem;
+    display: block;
+}
+.table-box .color-box #span{
+    background-color: orange;
+    width: 70px;
+    padding:.8rem;
+    display: block;
+}
+.table-box .color-box #span2{
+    background-color: red;
+    width: 75px;
+    padding:.8rem;
+    display: block;
+}
+@media(max-width:1363px)
+{
+    .city_info_box{
+        bottom: 0;
+    }
+    .CentralSanctorum{
+        margin-top: 2.5rem;
+    }
+}
+@media(max-width:1200px)
+{
+    .why-need-section .inner-container{
+        margin:0 10%;
+    }
+    .what-holy-city .inner-holy-city{
+        margin:0 10%;
+        text-align: center;
+    }
+    .city_info_box{
+        margin-top: 2rem;
+    }
+    .city_info_box .city_box{
+        text-align: center;
+        margin:auto;
+    }
+    .CentralSanctorum{
+        margin-top: 0rem;
+    }
+    .inner-project{
+        margin:0 10%;
+        text-align: center;
+    }
+}
+@media(max-width:950px)
+{
+    .why-need-section .inner-container{
+        margin:0 5%;
+    }
+    .westrn_genius .westrn_container{
+        flex-wrap: wrap;
+    }
+    .what-holy-city .inner-holy-city{
+        margin:0 5%;
+        text-align: center;
+    }
+    .inner-project{
+        margin:0 5%;
+        text-align: center;
+    }
+    .objective_outer_section .inner_objective{
+        margin: 0;
+    }
+    .city_info_box{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .city_info_box .city_box{
+        text-align: center;
+        margin:0;
+    }
+    .inner-project #year,#srno{
+        font-size: .8rem;
+    }
+    .inner-project #relign{
+        font-size: .8rem;width: 50%;
+    }
+    .inner-project #year,#srno{
+        font-size: .7rem;padding: .2rem;
+    }
+    #relign-content{
+        font-size: .7rem;
+    }
+    #all-td{
+        font-size: .7rem;
+    }
+    .table-box .color-box span{
+        padding:.5rem;
+        display: block;
+    }
+    .table-box .color-box #span{
+        padding:.5rem;
+    }
+    .table-box .color-box #span2{
+        padding:.5rem;
+    }
+}
+@media(max-width:750px){
+    .city_info_box{
+        flex-wrap: wrap;
+    }
+    .city_info_box .city_box img{
+        width: 80%;
+    }
+}
+@media(max-width:650px){
+    table{
+        border-collapse: collapse;
+    }
+    .inner-project #year,#srno{
+        padding: .1rem;
+        font-size: .6rem;
+    }
+    .inner-project #relign{
+        padding: 0;
+        font-size: .6rem;
+    }
+    #relign-content{
+       padding: .1rem;
+       font-size: .6rem;
+    }
+    #all-td{
+        padding: 0;
+    }
+    
+}
+@media(max-width:550px){
+    .city_info_box{
+        display: block;
+    }
+    .city_info_box .city_box img{
+        width: auto;
+    }
+    .table-box .inner-table-box{
+        width: 100%;
+        justify-content: center;
+    }
+    .year-hiddin{
+        display: none;
+    }
+}
+@media(max-width:360px){
+    .inner-project{
+        overflow: hidden;
+    }
+}

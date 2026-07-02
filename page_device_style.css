@@ -1,0 +1,120 @@
+@media(max-width:1500px){
+    .samepageLink{
+        top: 20rem;
+    }
+}
+@media(max-width:1200px){
+    .about_countainer .inner_about_container{
+        margin:0% 10%;
+    }
+    .aims_objective .inner_aims_obj_container{
+        margin:0% 10%;
+    }
+    .inner_manegment_box{
+        margin:0 10%;
+    }
+    .promotar_profile .inner_promotar{
+        margin:0 10%;
+    }
+    .inner_trusted_container{
+        margin:0% 10%;
+    }
+    
+}
+@media(max-width:950px){
+    .about_countainer .inner_about_container{
+        margin:0% 5%;
+    }
+    .aims_objective .inner_aims_obj_container{
+        margin:0% 5%;
+    }
+    .inner_manegment_box{
+        margin:0 5%;
+    }
+    .promotar_profile .inner_promotar{
+        margin:0 5%;
+    }
+    .inner_trusted_container{
+        margin:0% 5%;
+    }
+}
+@media(max-width:805px){
+    .about_countainer .inner_about_container .about_header img{
+        width: 10%;
+        height: auto;
+        margin:0 .5rem;
+    }
+    .promoter_box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pomoter_content{
+        margin-left: 0rem;
+    }
+    .books_image{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+    }
+    .inner_books_box .books_content .books_image img{
+        padding-top: 2rem;
+        width: 40%;
+        margin: 1rem;
+    }
+}
+@media(max-width:612px){
+    .about_countainer .inner_about_container .about_header img{
+        width: 15%;
+        height: auto;
+        margin:0 .5rem;
+    }
+}
+@media(max-width:550px){
+    .aims_objective .inner_aims_obj_container .aims-obj_header{
+        display: block;text-align: center;
+    }
+    .aims_objective .inner_aims_obj_container .aims_container .aims_box{
+        width:100%;
+        height: 25vh;
+        margin:.3rem;
+    }
+    .aims_objective .inner_aims_obj_container .aims-obj_header img{
+        right: 0;
+    }
+    .aims_objective .inner_aims_obj_container .aims_container .aims_box p{
+        font-size: 1rem;
+    }
+    .inner_books_box .books_content .books_image img{
+        width: 100%;
+    }
+}
+@media(max-width:450px){
+    .agreement_box .page_one{
+        width: 100%;
+        height: auto;
+    }
+}
+@media(max-width:350px)
+{
+    .aims_objective .inner_aims_obj_container .aims_container .aims_box p{
+        font-size: .9rem;
+    }
+    .managment_section .manegment_header{
+        display: block;
+        text-align: center;
+    }
+}
+@media (max-height: 480px){
+    .samepageLink{
+        top: 28%;
+    }
+    .samepageLink h4{
+        font-size: .9rem;
+    }
+    .samepageLink a{
+        width: 6rem;
+        text-decoration: none;
+        padding:.1rem 0;
+        font-size: .7rem;
+    }
+}

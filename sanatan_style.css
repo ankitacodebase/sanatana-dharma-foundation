@@ -1,0 +1,485 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Andika&family=Hanken+Grotesk:ital,wght@0,100;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Inter:wght@100;200&family=Lato:wght@100;300&family=Noto+Sans:wght@100&family=Poppins:ital,wght@0,200;1,100&family=Roboto+Slab:wght@100&family=Roboto:ital,wght@0,100;0,900;1,100&family=Spline+Sans+Mono:ital,wght@0,300;1,300&family=Ubuntu:ital,wght@0,400;1,300;1,400&family=Zilla+Slab:wght@300;400&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 28px;
+}
+.page_banner{
+    background-image:url(img/sanatan_upper.html), url(img/sanatan-banner.html);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    height: 29vh;
+    color: #000;
+}
+.page_banner h1{
+    font-weight: 700;
+    height: 29vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;text-align: center;
+}
+.samepageLink{
+    z-index: 1;
+    width: 8rem;
+    background-color: #eee;
+    position: fixed;
+    top: 50%;
+    right: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    animation: aboulink 2s;
+    display: block;
+}
+.samepageLink.active{
+    display: none;
+}
+@keyframes aboulink{
+    0%{transform: scale(0);}
+    100%{transform: scale(100%);}
+}
+.samepageLink #cross{
+    color: #670b04;
+    position: absolute;
+    right: .3rem;
+    top: .3rem;
+}
+.samepageLink #cross:hover{
+    color: blue;    
+}
+.samepageLink a{
+    width: 8rem;
+    display: block;
+    text-decoration: none;
+    padding:.3rem 0;
+    font-size: .8rem;
+    color: #670b04;
+}
+.samepageLink a:hover{
+    color: blue;
+}
+.about_countainer .inner_about_container{
+    margin:0 14%;
+    padding:2rem 0;
+}
+.about_countainer .inner_about_container #about_h h1{
+    color: #8d3c2a;
+    padding-bottom: .5rem;
+}
+.about_countainer .inner_about_container .about_containt p{
+    line-height: 1.7rem;
+    font-size: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    text-align: justify;
+}
+/* Historical Section Start */
+.historical_section{
+    padding:rem 0;
+}
+.historical_section .historical_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding:.5rem 0;
+}
+.historical_section .historical_header img{
+    width: 40px;
+    height: 25px;
+    margin-right: 1rem;
+    margin-bottom: .6rem;
+}
+.historical_section .historical_header h2{
+    color: orangered;
+    padding-bottom: .5rem;
+}
+.historical_section .historical_containt p{
+    line-height: 1.7rem;
+    font-size: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    text-align: justify;
+}
+/* Dharma is not Religion Start  */
+.difrance_section .inner_difrance_container{
+    margin:0 14%;
+    padding-bottom:2rem;
+}
+.difrance_section .inner_difrance_container h1{
+    text-align: center;
+    color: #8d3c2a;
+}
+.sr-no-bg{
+    background-color: #f7d5b9;
+    color: #670b04;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+#sr_number1{
+    width: 100px;
+    margin-left:1rem;
+    padding: .7rem;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    text-align: center;
+}
+.religion{
+    background-color: #f7d5b9;
+    color: #670b04;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+#cell{
+    width: 450px;
+    padding: .7rem;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.dhrma{
+    background-color: #f7d5b9;
+    color: #670b04;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+#dhrma_cell{
+    width: 450px;
+    margin-left:1rem;
+    padding: .7rem;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+table tr td:hover{
+    background-color: #eee;
+}
+.difrance_section .inner_difrance_container p{
+    text-align: center;
+    font-weight: bold;
+    padding-top: 1.5rem;
+}
+/* Dharma is not Religion End */
+/* Glimpse of the Book Contents Start */
+.glimpse_section .inner_glimpse{
+    margin:0 14%;
+    padding:1rem 0;
+}
+.glimpse_section .inner_glimpse .glimpse_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glimpse_section .inner_glimpse .glimpse_header h1{
+    color:orangered;
+    padding-bottom: .8rem;
+}
+.glimpse_section .inner_glimpse .glimpse_header img{
+    width: 40px;
+    height: 25px;
+    margin-right: 1rem;
+    margin-bottom: .7rem;
+}
+.glimpse_section .inner_glimpse .glimpse_define p{
+    line-height: 1.7rem;
+    font-size: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    text-align: justify;
+}
+.content_chapter h2{
+    text-align: center;
+    padding:1rem;
+    color: orangered;
+}
+.content_chapter .chapter_box{
+    display: flex;
+    justify-content: center;
+}
+.content_chapter .chapter_box .inner_chapter{
+    width:30rem;
+}
+.content_chapter .chapter_box .inner_chapter h3{
+    text-align: center;
+    color: #8d3c2a;
+    background-color: #f7d5b9;
+    padding: .5rem;
+    margin:1rem 1rem 0 1rem;
+    border-top: 5px solid orangered;
+    box-shadow:#f7d5b9 0px 0.0625em 0.0625em, #f7d5b9 0px 0.125em 0.5em, #f7d5b9 0px 0px 0px 1px;
+}
+.content_chapter .chapter_box .inner_chapter .inner_box{
+    margin:.7rem 1rem 1rem 1rem;
+    padding-bottom: 1rem;
+    height: 24rem;
+    box-shadow:#f7d5b9 0px 0.0625em 0.0625em, #f7d5b9 0px 0.125em 0.5em, #f7d5b9 0px 0px 0px 1px;
+}
+.content_chapter .chapter_box .inner_chapter .inner_box h4{
+    text-align: center;
+    color: #670b04;
+    padding: .5rem 0;
+}
+.content_chapter .chapter_box .inner_chapter .inner_box .chapter_one{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    margin:.3rem 22%;
+}
+.content_chapter .chapter_box .inner_chapter .inner_box .chapter_one p{
+    margin-left: .5rem;
+    padding: .2rem;
+}
+.content_chapter #pp{
+    text-align: center;
+    padding:1rem 0;
+}
+/* Glimpse of the Book Contents End */
+.scriptures_section{
+    background-image: url(img/holy-back.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.scriptures_section .inner_scritures{
+    margin:0 14%;
+    padding-bottom: 2rem;
+}
+.scriptures_section .inner_scritures h1{
+    text-align: center;
+    color: #8d3c2a;
+    padding:1rem 0 0rem;
+}
+.scriptures_section .inner_scritures #p{
+    text-align: center;
+}
+.scriptures_section .inner_scritures .scriptures_box h2{
+    text-align: center;
+    color: orangered;
+    padding:1rem 0 .5rem;
+}
+.scriptures_section .inner_scritures .scriptures_box p{
+    line-height: 1.7rem;
+    font-size: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    text-align: justify;
+}
+.vedas_shruti h2{
+    color: #8d3c2a;
+    padding-bottom: .5rem;
+}
+.SrNo{
+    background-color: #f7d5b9;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+#SrNo{
+    width: 100px;
+    margin-left:1rem;
+    padding: .7rem;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    text-align: center;
+}
+.veda{
+    background-color: #f7d5b9;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+#veda{
+    width: 450px;
+    /* margin-left:1rem; */
+    padding: .7rem;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.descrition{
+    background-color: #f7d5b9;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+#descrition{
+    width: 450px;
+    margin-left:1rem;
+    padding: .7rem;
+    box-shadow: #f7d5b9 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+table tr td:hover{
+    background-color: #eee;
+}
+.table_full{
+    display: flex;
+    align-items: center;
+}
+.table_full i{
+    color: orangered;
+    font-size: .6rem;
+    margin-left: .8rem;
+}
+.table_full p{
+    margin-left: .5rem;
+    padding:.5rem 0;
+}
+.veda_parts_box .veda_part_describ{
+    padding-top: 1rem;
+}
+.veda_parts_box .veda_part_describ h4{
+    color: orangered;
+}
+.veda_parts_box .veda_part_describ h4 i{
+    font-size: .7rem;
+    padding-right: .8rem;
+}
+.veda_parts_box .veda_part_describ p{
+    margin-left: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    text-align: justify;
+}
+.veda_parts_box .veda_part_describ ol{
+    margin-left: 5rem;
+}
+.shastras{
+    text-align: center;
+}
+.shastras_smriti #shastrs_heading{
+    text-transform:capitalize;
+    color: #8d3c2a;
+    padding-top: 1.3rem;
+    padding-bottom: .5rem;
+}
+.Shastras_describ h4{
+    padding:1rem 0;
+    color: orangered;
+}
+.Shastras_describ p{
+    margin-left: 1.3rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    text-align: justify;
+}
+.deity_name{
+    text-align: center;
+}
+.left_div{
+    text-align: left;
+}
+.sastra_list{
+    margin-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+@media(max-width:1320px){
+    .content_chapter .chapter_box .inner_chapter .inner_box .chapter_one p{
+        padding: .1rem;
+    }
+}
+@media(max-width:1200px){
+    .about_countainer .inner_about_container{
+        margin:0 10%;
+    }
+    .difrance_section .inner_difrance_container{
+        margin:0 10%;
+    }
+    .glimpse_section .inner_glimpse{
+        margin:0 10%;
+    }
+    .content_chapter .chapter_box .inner_chapter .inner_box .chapter_one{
+        margin:.3rem 20%;
+    }
+    .content_chapter .chapter_box .inner_chapter .inner_box .chapter_one p{
+        font-size: .9rem;
+    }
+    .scriptures_section .inner_scritures{
+        margin:0 10%;
+    }
+}
+@media(max-width:950px){
+    .about_countainer .inner_about_container{
+        margin:0 5%;
+    }
+    .difrance_section .inner_difrance_container{
+        margin:0 5%;
+    }
+    .glimpse_section .inner_glimpse{
+        margin:0 5%;
+    }
+    .content_chapter .chapter_box .inner_chapter .inner_box .chapter_one{
+        margin:.3rem 15%;
+    }
+    .scriptures_section .inner_scritures{
+        margin:0 5%;
+    }
+}
+@media(max-width:750px){
+    .content_chapter .chapter_box{
+        flex-wrap: wrap;
+    }
+    .content_chapter .chapter_box .inner_chapter .inner_box{
+        height: auto;
+    }
+    .content_chapter .chapter_box .inner_chapter .inner_box .chapter_one{
+        margin:.3rem 20%;
+    }
+}
+@media(max-width:550px)
+{
+    .historical_section .historical_header{
+        display: block;
+        padding:0;
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .historical_section .historical_header img{
+        width: 40px;
+        height: 25px;
+        margin-right:0;
+        margin-bottom:0;
+    }
+    .historical_section .historical_header h1{
+        color: orangered;
+        padding-bottom: 0rem;
+    }
+    .glimpse_section .inner_glimpse .glimpse_header{
+        display: block;
+        text-align: center;
+    }
+    .glimpse_section .inner_glimpse .glimpse_header h1{
+        padding: 0;
+        margin: 0;
+    }
+}
+@media(max-width:350px){
+    table,th,td{
+        border-collapse: collapse;
+        font-size: .8rem;
+    }
+    .vedas_shruti table,th,td{
+        border-collapse: collapse;
+        font-size: .8rem;
+    }
+}
+@media(max-width:250px){
+    #sr_number1{
+        width:auto;
+        margin:auto;
+        padding: .7rem;
+    }
+    #cell{
+        width:auto;
+        padding:0rem;
+    }
+    #dhrma_cell{
+        width: auto;
+        margin:auto;
+        padding: 0rem;
+    }
+    #SrNo{
+        width: auto;
+        margin:auto;
+        padding:0rem;
+    }
+    #veda{
+        width: auto;
+        padding:0rem;
+    }
+    #descrition{
+        width: auto;
+        margin:auto;
+        padding: 0rem;
+    }
+}
