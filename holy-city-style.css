@@ -1,10 +1,10 @@
-*{
+﻿*{
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 .page_banner{
-    background-image: url(img/holyCity-upper.html), url(img/middilbanner.html), url(img/holyCity-banner2.html);
+    background-image: url(img/holyCity-upper.png), url(img/middilbanner.png), url(img/holyCity-banner2.jpg);
     height: 29vh;
     background-size: cover;
     background-position:top center;

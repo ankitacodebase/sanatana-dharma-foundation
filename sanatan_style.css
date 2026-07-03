@@ -8,7 +8,7 @@ h1{
     font-size: 28px;
 }
 .page_banner{
-    background-image:url(img/sanatan_upper.html), url(img/sanatan-banner.html);
+    background-image:url(img/sanatan_upper.php), url(img/sanatan-banner.php);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;

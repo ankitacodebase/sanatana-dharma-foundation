@@ -46,7 +46,7 @@ h1{
     color: blue;
 }
 .page_banner{
-    background-image: url(img/page-banner.html);
+    background-image: url(img/page-banner.php);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
