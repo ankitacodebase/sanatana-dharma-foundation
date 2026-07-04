@@ -51,9 +51,9 @@
             <div class="copyright_box">
                 <p>Copyright © 2026 International Sanatan Foundation<span style="font-weight: 100;">&#174;</span> All rights reserved.</p>
                 <ul>
-                    <li><a href="https://sanatandharmafoundation.org/privacy-policy/">Privacy Policy |</a></li>
+                    <li><a href="privacy-policy.php">Privacy Policy |</a></li>
                     <li><a href="https://sanatandharmafoundation.org/legal/">Legal |</a></li>
-                    <li><a href="https://sanatandharmafoundation.org/sitemap/">Site Map</a></li>
+                    <li><a href="sitemap.php">Site Map</a></li>
                 </ul>
                 <div class="footer_social_media">
                     <a href="https://www.facebook.com/sanatandharmsthal/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>					
@@ -74,6 +74,4 @@
 <script src="https://sanatandharmafoundation.org/wp-content/themes/sanatan-dharma-foundation/assets/js/javascript.js"></script>
 
 <script id="sanatan-dharma-foundation-navigation-js" src="https://sanatandharmafoundation.org/wp-content/themes/sanatan-dharma-foundation/js/navigation.js?ver=1.0.0"></script>
-</script>
-</body>
-</html>
+

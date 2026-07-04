@@ -22,10 +22,10 @@
 							<ul id="holycity_menu">
 								<li><a href="holy_city.php">Why the Need</a></li>
 								<li><a href="holy_city.php/#what-holy">What it is</a></li>
-								<li><a href="https://sanatandharmafoundation.org/holy-city/#objective">Objectives</a></li>
-								<li><a href="https://sanatandharmafoundation.org/holy-city/#salient">Salient Features</a></li>
+								<li><a href="holy-city.php#objective">Objectives</a></li>
+								<li><a href="holy-city.#salient">Salient Features</a></li>
 								<li><a href="https://sanatandharmafoundation.org/holy-city/#animatvideo">Animated Video</a></li>
-								<li><a href="https://sanatandharmafoundation.org/holy-city/#project">Project Timeline</a></li>
+								<li><a href="holy_city.php#project">Project Timeline</a></li>
 								<li><a href="https://sanatandharmafoundation.org/faq/">FAQ's</a></li>
 							</ul>
 						</li>
@@ -49,7 +49,7 @@
 								<li><a href="https://sanatandharmafoundation.org/gallery-video/">Videos</a></li>
 							</ul>
 						</li>
-						<li><a href="https://sanatandharmafoundation.org/invitation/">Invitation</a></li>
+						<li><a href="invitation.php">Invitation</a></li>
 						<li id="download">Downloads<i class="fa-solid fa-caret-down"></i>
 							<ul id="subdown">
 								<li><a href="https://sanatandharmafoundation.org/downloads/#logos">Logos</a></li>
