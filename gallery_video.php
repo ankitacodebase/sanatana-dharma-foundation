@@ -1,206 +1,146 @@
-<header id="nav">
-        <div class="main_div">
-            <div class="hindi_logo">
-                <a href="index.php"><img src="img/hindi-logo.png" alt="hindiLogo"></a>
-            </div>
-            <div class="social_media">
-                <a href="https://www.facebook.com/sanatandharmsthal/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/s_dharmsthal" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.instagram.com/sanatandharmsthal/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/sanatandharmasthal/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://www.youtube.com/@sanatandharmafoundations"><i class="fa-brands fa-youtube"></i></a>
-            </div>
-            <div class="eng_logo">
-                <a href="index.php"><img src="img/eng-logo.png" alt="engLogo"></a>
-            </div>
-        </div>
-        <div class="secound_bar">
-            <div class="secound_inner_bar">
-            <ul id="menu">
-                <li><a href="index.php"><i class="fa-solid fa-home"></i>&nbsp;&nbsp;</a></li>
-                <li id="about">About<i class="fa-solid fa-caret-down"></i>
-                    <ul id="about_menu">
-                        <li><a href="about.php">Sanatan Dharma Foundation</a></li>
-                        <li><a href="about.php#aims_objective">Aims and Objectives</a></li>
-                        <li><a href="about.php#manegment">Management</a></li>
-                        <li><a href="about.php#promotar">Promoter profile</a></li>
-                        <li><a href="about.php#truste">Trust Deed</a></li>
-                    </ul>
-                </li>
-                <li id="dhrama">Sanatan Dharma<i class="fa-solid fa-caret-down"></i>
-                    <ul id="dhrama_menu">
-                        <li><a href="SanatanDharma.php">What is Sanatan Dharma</a></li>
-                        <li><a href="SanatanDharma.php#religion">Dharma is not Religion</a></li>
-                        <li><a href="SanatanDharma.php#scriptures">SD Scriptures</a></li>
-                    </ul>
-                </li>
-                <li id="holycity">Holy City<i class="fa-solid fa-caret-down"></i>
-                    <ul id="holycity_menu">
-                        <li><a href="holy_city.php">Why the Need</a></li>
-                        <li><a href="holy_city.php#what-holy">What it is</a></li>
-                        <li><a href="holy_city.php#objective">Objectives</a></li>
-                        <li><a href="holy_city.php#salient">Salient Features</a></li>
-                        <li><a href="holy_city.php#animatvideo">Animated Video</a></li>
-                        <li><a href="holy_city.php#project">Project Timeline</a></li>
-                        <li><a href="faq.php">FAQ's</a></li>
-                    </ul>
-                </li>
-                <li id="supporter"><a href="associates_supporters.php">Associates & Supporters</a></li>
-                <li id="news">News Updates<i class="fa-solid fa-caret-down"></i>
-                    <ul id="news_menu">
-                        <li><a href="news-update.php">2023</a></li>
-                        <li><a href="news-update.php#archive2022">2022</a></li>
-                    </ul>
-                </li>
-                <li id="media">Media<i class="fa-solid fa-caret-down"></i>
-                    <ul id="media_menu">
-                        <li><a href="media.php">Print Media</a></li>
-                        <li><a href="electronic.php">Electronic Media</a></li>
-                    </ul>
-                </li>
-                <li id="gallery">Gallery<i class="fa-solid fa-caret-down"></i>
-                    <ul id="gallery_menu">
-                        <li><a href="gallery-photo.php">Photos</a></li>
-                        <li><a href="gallery_video.php">Videos</a></li>
-                    </ul>
-                </li>
-                <li><a href="invitation.php">Invitation</a></li>
-                <li id="download">Downloads<i class="fa-solid fa-caret-down"></i>
-                    <ul id="subdown">
-                        <li><a href="downloads.php#logos">Logos</a></li>
-                        <li><a href="downloads.php#sticker&poster">Stickers & Posters</a></li>
-                        <li><a href="downloads.php#Literature">Literature</a></li>
-                        <li id="dform">Forms <i class="fa-solid fa-caret-down"></i>
-                        <ul id="form_hover">
-                            <li><a href="downloads.php#Forms">Resident Indian</a></li>
-                            <li><a href="downloads.php#Forms">NRI / RNOR</a></li>
-                            <li><a href="downloads.php#Forms">PIO / Others</a></li>
-                        </ul>
-                        </li>
-                        <li><a href="downloads.php#OurDharmas">Our Dharmas</a></li>
-                        <li><a href="downloads.php#Policies">Policies</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.php">Contact</a></li>
-                   <li id="langHover">
-                        <button class="language_select" id="lang">
-                            <div class="inner_lang">
-                              <div class="option_box">
-                                <p>हिंदी</p>
-                              <i class="fa-solid fa-chevron-down"></i>
-                              </div>
-                              <div class="other_lang">
-                                <a href="hindi_version/gallery_video.php" id="a">हिंदी</a>
-                                <a href="marathi/index.php" id="a">मराठी</a>
-                              </div>
-                            </div>
-                          </button>
-                    </li>
-                </ul>
-                <div class="demo">
-                    <button class="language_select" id="lang_btn">
-                        <div class="inner_lang">
-                          <div class="option_box">
-                            <p>हिंदी</p>
-                          <i class="fa-solid fa-chevron-down"></i>
-                          </div>
-                          <div class="other_lang">
-                            <a href="hindi_version/gallery_video.php" id="a">हिंदी</a>
-                            <a href="marathi/index.php" id="a">मराठी</a>
-                          </div>
-                        </div>
-                      </button>
-                <div class="sd_menu">
-                <div class="menubar" onclick="bar_change(this)">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section class="contact_banner">
-       <div class="contact_header">
-        <h1>Video Gallery</h1>
-       </div>
-    </section>
-    <div class="scroll_button">
-        <div class="fixed_icon">
-            <i class="fa-solid fa-arrow-up" onclick="topFunction()"></i>
-        </div>
-    </div>
-<section class="gallery_container">
-    <div class="inner_gallery">
-        <h1>Coming soon....</h1>
+<?php include('header.php');?>  
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+}
+.contact_banner {
+    height: 30vh;
+    background-image: url(img/gallery-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    color: #fff;
+    font-size: 2rem;
+}
+.gallery_container {
+    background-image: url(img/holy-back.webp);
+    background-position: center;
+    background-size: cover;
+}
+.gallery_container .inner_gallery {
+    margin: 0 13%;
+    padding: 2rem 0;
+}
+.photo_box .photo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.photo_box .photo .image {
+    width: 274px;
+    height: auto !important;
+    overflow: hidden;
+    border: 15px solid #fff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+    margin: 20px;
+    background-color: #fff;
+}
+.photo_box .photo img {
+    width: 100%;
+    height: 251px;
+    object-fit: cover;
+}
+@media(max-width:950px) {
+    .gallery_container .inner_gallery { margin: 0 5%; }
+}
+@media(max-width:550px) {
+    .contact_header { font-size: 1.5rem; }
+}
+</style>
+
+<section class="contact_banner">
+    <div class="contact_header">
+    <h1>Video Gallery</h1>
     </div>
 </section>
-<footer>
-        <div class="main_footer">
-        <div class="logo_section">
-            <div  id="footerlogo">
-                <a href="index.php"><img src="img/Logo-01.png" alt="logo"></a>
-            </div>
-        </div>
-        <div class="quick_link">
-            <ul>
-                <label>About</label>
-                <li><a href="about.php">SD Foundation</a></li>
-                <li><a href="about.php#aims_objective">Aims and Objectives</a></li>
-                <li><a href="about.php#manegment">Management</a></li>
-                <li><a href="about.php#promotar">Promoter profile</a></li>
-                <li><a href="about.php#truste">Trust Deed</a></li>
-            </ul>
-            <ul>
-                <label>Sanatan Dharma</label>
-                <li><a href="SanatanDharma.php">What is Sanatan Dharma</a></li>
-                <li><a href="SanatanDharma.php#religion">Dharma is not Religion</a></li>
-                <li><a href="SanatanDharma.php#scriptures">SD Scriptures</a></li>
-            </ul>
-            <ul>
-                <label>Holy City</label>
-                <li><a href="holy_city.php">Why the Need</a></li>
-                <li><a href="holy_city.php#what-holy">What it is</a></li>
-                <li><a href="holy_city.php#objective">Objectives</a></li>
-                <li><a href="holy_city.php#salient">Salient Features</a></li>
-                <li><a href="holy_city.php#animatvideo">Animated Video</a></li>
-                <li><a href="holy_city.php#project">Project Timeline</a></li>
-            </ul>
-            <ul>
-                <label>Quick Links</label>
-                <li><a href="media.php">Media</a></li>
-                <li><a href="gallery-photo.php">Gallery</a></li>
-                <li><a href="news-update.php">News and Updates</a></li>
-                <li><a href="invitation.php">Invitation</a></li>
-                <li><a href="downloads.php">Downloads</a></li>
-                <li><a href="associates_supporters.php">Associates & Supporters</a></li>
-            </ul>
-            <ul>
-                <label>Need Help ?</label>
-                <li><a href="contact.php">Contact Us</a></li>
-                <li><a href="faq.php">FAQ's</a></li>
-            </ul>
-        </div>
+<div class="scroll_button">
+    <div class="fixed_icon">
+        <i class="fa-solid fa-arrow-up" onclick="topFunction()"></i>
     </div>
-        <div class="copyright">
-            <div class="copyright_box">
-                <p>Copyright © 2023 Sanatan Dharma Foundation<span style="font-weight: 100;">&#174;</span>, All rights reserved.</p>
-                <ul>
-                    <li><a href="privacy-policy.php">Privacy Policy |</a></li>
-                    <li><a href="legal.php">Legal |</a></li>
-                    <li><a href="sitemap.php">Site Map</a></li>
-                </ul>
-                <div class="footer_social_media">
-                <a href="https://www.facebook.com/sanatandharmsthal/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="https://twitter.com/s_dharmsthal" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                <a href="https://www.instagram.com/sanatandharmsthal/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/company/sanatandharmasthal/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://www.youtube.com/@sanatandharmafoundations"><i class="fa-brands fa-youtube"></i></a>
-            </div>
-            </div>
+</div>
+<section class="gallery_container">
+    <div class="inner_gallery">
+      <div class="photo_box">
+        <div class="photo">
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=_n9o8rfSiIY' target='_blank'>
+                        <img src='https://img.youtube.com/vi/_n9o8rfSiIY/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=2LSsz1FPW34' target='_blank'>
+                        <img src='https://img.youtube.com/vi/2LSsz1FPW34/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=1HrijY-est0' target='_blank'>
+                        <img src='https://img.youtube.com/vi/1HrijY-est0/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=Z_KoGKTV79I' target='_blank'>
+                        <img src='https://img.youtube.com/vi/Z_KoGKTV79I/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=REQsaNzLCP4' target='_blank'>
+                        <img src='https://img.youtube.com/vi/REQsaNzLCP4/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=wuDn_4KWy9k' target='_blank'>
+                        <img src='https://img.youtube.com/vi/wuDn_4KWy9k/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=UEBz7s_2Xag' target='_blank'>
+                        <img src='https://img.youtube.com/vi/UEBz7s_2Xag/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=FRnmguDUsaM' target='_blank'>
+                        <img src='https://img.youtube.com/vi/FRnmguDUsaM/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=sPKmvKCHfIM' target='_blank'>
+                        <img src='https://img.youtube.com/vi/sPKmvKCHfIM/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=vBiaf5RFy4c' target='_blank'>
+                        <img src='https://img.youtube.com/vi/vBiaf5RFy4c/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=WhfR9mIRvv4' target='_blank'>
+                        <img src='https://img.youtube.com/vi/WhfR9mIRvv4/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=uQIzCGlwO8I' target='_blank'>
+                        <img src='https://img.youtube.com/vi/uQIzCGlwO8I/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
+                <fieldset class='image'>
+                    <a href='https://www.youtube.com/watch?v=vVatsMj8OW0' target='_blank'>
+                        <img src='https://img.youtube.com/vi/vVatsMj8OW0/mqdefault.jpg' alt=''/>
+                    </a>
+                </fieldset>
         </div>
-    </footer>
+      </div>
+    </div>
+</section>
+<?php
+include('footer.php');
+?>
     <script src="javascript.js"></script>
     <script>
         // subpage extra link 

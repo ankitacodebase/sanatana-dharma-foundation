@@ -41,7 +41,7 @@
                     <ul>
                         <label>Need Help ?</label>
                         <li><a href="https://sanatandharmafoundation.org/contact/">Contact Us</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/faq/">FAQ's</a></li>
+                        <li><a href="faq.php">FAQ's</a></li>
                         <li><h1 class="web-counter">Hit Counters<br><span id="counter">-----</span></h1></li>
                     </ul>           
                 </div>
