@@ -8,39 +8,39 @@
         <div class="quick_link">
             <ul>
                         <label>About</label>
-                        <li><a href="https://sanatandharmafoundation.org/about/">SD Foundation</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/about/#aims_objective">Aims and Objectives</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/about/#management">Management</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/about/#promotar">Promoter profile</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/about/#truste">Trust Deed</a></li>
+                        <li><a href="about.php">SD Foundation</a></li>
+                        <li><a href="about.php#aims_objective">Aims and Objectives</a></li>
+                        <li><a href="about.php#management">Management</a></li>
+                        <li><a href="about.php#promotar">Promoter profile</a></li>
+                        <li><a href="about.php#truste">Trust Deed</a></li>
                     </ul>
                     <ul>
                         <label>Sanatan Dharma</label>
-                        <li><a href="https://sanatandharmafoundation.org/sanatandharma/">What is Sanatan Dharma</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/sanatandharma/#religion">Dharma is not Religion</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/sanatandharma/#scriptures">SD Scriptures</a></li>
+                        <li><a href="sanatandharma.php">What is Sanatan Dharma</a></li>
+                        <li><a href="sanatandharma.php#religion">Dharma is not Religion</a></li>
+                        <li><a href="sanatandharma.php#scriptures">SD Scriptures</a></li>
                     </ul>
                     <ul>
                         <label>Holy City</label>
-                        <li><a href="https://sanatandharmafoundation.org/holy-city/">Why the Need</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/holy-city/#what-holy">What it is</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/holy-city/#objective">Objectives</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/holy-city/#salient">Salient Features</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/holy-city/#animatvideo">Animated Video</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/holy-city/#project">Project Timeline</a></li>
+                        <li><a href="holy_city.php">Why the Need</a></li>
+                        <li><a href="holy_city.php#what-holy">What it is</a></li>
+                        <li><a href="holy_city.php#objective">Objectives</a></li>
+                        <li><a href="holy_city.php#salient">Salient Features</a></li>
+                        <li><a href="holy_city.php#animatvideo">Animated Video</a></li>
+                        <li><a href="holy_city.php#project">Project Timeline</a></li>
                     </ul>
                     <ul>
                         <label>Quick Links</label>
-                        <li><a href="https://sanatandharmafoundation.org/media/">Media</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/gallery-photo/">Gallery</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/news-updates/">News and Updates</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/invitation/">Invitation</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/downloads/">Downloads</a></li>
-                        <li><a href="https://sanatandharmafoundation.org/associates-supporters/">Associates & Supporters</a></li>
+                        <li><a href="media.php">Media</a></li>
+                        <li><a href="gallery-photo.php">Gallery</a></li>
+                        <li><a href="news-update.php">News and Updates</a></li>
+                        <li><a href="invitation.php">Invitation</a></li>
+                        <li><a href="downloads.php">Downloads</a></li>
+                        <li><a href="associates_supporters.php">Associates & Supporters</a></li>
                     </ul>
                     <ul>
                         <label>Need Help ?</label>
-                        <li><a href="https://sanatandharmafoundation.org/contact/">Contact Us</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                         <li><a href="faq.php">FAQ's</a></li>
                         <li><h1 class="web-counter">Hit Counters<br><span id="counter">-----</span></h1></li>
                     </ul>           
