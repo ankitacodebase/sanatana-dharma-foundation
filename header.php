@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en-US" oncontextmenu="return false" onselectstart="return false" onkeydown="if ((arguments[0] || window.event).ctrlKey) return false">
+<html lang="en-US" >
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,7 +23,17 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<!-- <link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="device_view.css" /> -->
-		<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=Andika&family=Hanken+Grotesk:ital,wght@0,100;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Inter:wght@100;200&family=Lato:wght@100;300&family=Noto+Sans:wght@100&family=Poppins:wght@500&family=Roboto+Slab:wght@100&family=Roboto:ital,wght@0,100;0,900;1,100&family=Spline+Sans+Mono:ital,wght@0,300;1,300&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="device_view.css">
+        <link rel="stylesheet" href="page_style.css">
+        <link rel="stylesheet" href="page_device_style.css">
+        <link rel="stylesheet" href="holy-city-style.css">
+
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Andika&family=Hanken+Grotesk:ital,wght@0,100;0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&family=Inter:wght@100;200&family=Lato:wght@100;300&family=Noto+Sans:wght@100&family=Poppins:wght@500&family=Roboto+Slab:wght@100&family=Roboto:ital,wght@0,100;0,900;1,100&family=Spline+Sans+Mono:ital,wght@0,300;1,300&family=Ubuntu:ital,wght@0,400;1,300;1,400&display=swap" rel="stylesheet" />
 		<style>
 			.button_robot{
 				display: flex;

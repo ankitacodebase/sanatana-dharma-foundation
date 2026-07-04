@@ -40,35 +40,35 @@
 							<ul id="media_menu">
 								<li><a href="https://sanatandharmafoundation.org/social-media/">Social Media</a></li>
 								<li><a href="https://sanatandharmafoundation.org/media/">Print Media</a></li>
-								<li><a href="https://sanatandharmafoundation.org/electronic/">Electronic Media</a></li>
+								<li><a href="electronic.php">Electronic Media</a></li>
 							</ul>
 						</li>
 						<li id="gallery">Gallery<i class="fa-solid fa-caret-down"></i>
 							<ul id="gallery_menu">
-								<li><a href="https://sanatandharmafoundation.org/gallery-photo/">Photos</a></li>
-								<li><a href="https://sanatandharmafoundation.org/gallery-video/">Videos</a></li>
+								<li><a href="gallery-photo.php">Photos</a></li>
+								<li><a href="gallery_video.php">Videos</a></li>
 							</ul>
 						</li>
 						<li><a href="invitation.php">Invitation</a></li>
 						<li id="download">Downloads<i class="fa-solid fa-caret-down"></i>
 							<ul id="subdown">
-								<li><a href="https://sanatandharmafoundation.org/downloads/#logos">Logos</a></li>
-								<li><a href="https://sanatandharmafoundation.org/downloads/#sticker&poster">Stickers & Posters</a></li>
-								<li><a href="https://sanatandharmafoundation.org/downloads/#Literature">Literature</a></li>
+								<li><a href="downloads.php#logos">Logos</a></li>
+								<li><a href="downloads.php#sticker&poster">Stickers & Posters</a></li>
+								<li><a href="downloads.php#Literature">Literature</a></li>
 								<li id="dform">Forms <i class="fa-solid fa-caret-down"></i>
 								<ul id="form_hover">
-									<li><a href="https://sanatandharmafoundation.org/downloads/#Forms">Resident Indian</a></li>
-									<li><a href="https://sanatandharmafoundation.org/downloads/#Forms">NRI / RNOR</a></li>
-									<li><a href="https://sanatandharmafoundation.org/downloads/#Forms">PIO / Others</a></li>
+									<li><a href="downloads.php#Forms">Resident Indian</a></li>
+									<li><a href="downloads.php#Forms">NRI / RNOR</a></li>
+									<li><a href="downloads.php#Forms">PIO / Others</a></li>
 								</ul>
 								</li>
-								<li><a href="https://sanatandharmafoundation.org/downloads/#OurDharmas">Our Dharmas</a></li>
-								<li><a href="https://sanatandharmafoundation.org/downloads/#Policies">Policies</a></li>
-								<li><a href="https://sanatandharmafoundation.org/downloads/#PressRelease">Press Release</a></li>
-								<li><a href="https://sanatandharmafoundation.org/downloads/#Booklets">Booklets</a></li>
+								<li><a href="downloads.php#OurDharmas">Our Dharmas</a></li>
+								<li><a href="downloads.php#Policies">Policies</a></li>
+								<li><a href="downloads.php#PressRelease">Press Release</a></li>
+								<li><a href="downloads.php#Booklets">Booklets</a></li>
 							</ul>
 						</li>
-						<li><a href="https://sanatandharmafoundation.org/contact/">Contact</a></li>
+						<li><a href="contact.php">Contact</a></li>
                     </ul>				
 				    <div class="sd_menu">
 				        <div class="menubar" onclick="bar_change(this)">
