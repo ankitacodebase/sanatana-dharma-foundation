@@ -57,18 +57,18 @@
 								<li><a href="downloads.php/#Literature">Literature</a></li>
 								<li id="dform">Forms <i class="fa-solid fa-caret-down"></i>
 								<ul id="form_hover">
-									<li><a href=" downloads/#Forms">Resident Indian</a></li>
-									<li><a href=" downloads/#Forms">NRI / RNOR</a></li>
-									<li><a href=" downloads/#Forms">PIO / Others</a></li>
+									<li><a href="downloads.php/#Forms">Resident Indian</a></li>
+									<li><a href="downloads.php/#Forms">NRI / RNOR</a></li>
+									<li><a href="downloads.php/#Forms">PIO / Others</a></li>
 								</ul>
 								</li>
-								<li><a href=" downloads/#OurDharmas">Our Dharmas</a></li>
-								<li><a href=" downloads/#Policies">Policies</a></li>
-								<li><a href=" downloads/#PressRelease">Press Release</a></li>
-								<li><a href=" downloads/#Booklets">Booklets</a></li>
+								<li><a href="downloads.php#OurDharmas">Our Dharmas</a></li>
+								<li><a href="downloads.php#Policies">Policies</a></li>
+								<li><a href="downloads.php#PressRelease">Press Release</a></li>
+								<li><a href="downloads.php#Booklets">Booklets</a></li>
 							</ul>
 						</li>
-						<li><a href=" contact/">Contact</a></li>
+						<li><a href="contact.php">Contact</a></li>
                     </ul>				
 				    <div class="sd_menu">
 				        <div class="menubar" onclick="bar_change(this)">
