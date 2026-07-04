@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" oncontextmenu="return false" onselectstart="return false" onkeydown="if ((arguments[0] || window.event).ctrlKey) return false">
+<html lang="en">
 
 <!-- Mirrored from sanatandharmafoundation.com/sitemap.php by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 02 Jul 2026 06:34:04 GMT -->
 <head>

@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="en-US" oncontextmenu="return false" onselectstart="return false" onkeydown="if ((arguments[0] || window.event).ctrlKey) return false">
+<html lang="en-US">
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
