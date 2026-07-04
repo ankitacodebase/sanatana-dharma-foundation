@@ -7,7 +7,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sanatan Dharam Foundation</title>
+    <title>Sanatan Dharam Foundationnnnnn</title>
     <meta name=description content="Sanatan Dharma is the oldest religious philosophy of values, duties and responsibilities, known to the mankind, to be followed by all living and non-living beings including humans as enshrined by the CREATOR of the UNIVERSE. Its scriptures “VEDAS” are the oldest written texts in the world dated at least 7500 BC.">
     <meta name=keywords content="sanatan dharma, sanatan">
     <meta name="copyright" content="Sanatan Dharma Foundtaion" />
